@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Log in / Log out chrome extension",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "incognito": "split",
+    "content_scripts": [
+        {
+            "matches": [
+                ""
+            ],
+             "js": ["config.js", "log_script.js"]
+        }
+    ]
+}
