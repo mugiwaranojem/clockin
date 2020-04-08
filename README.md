@@ -37,3 +37,8 @@ slackProfileToken: 'SLACK_ACCOUNT_TOKEN',
 ### Generating slack token
 To generate or create token for `slackProfileToken` value refer to the link below  
 https://slack.com/intl/en-ph/help/articles/215770388-Create-and-regenerate-API-tokens
+
+## Chrome installation
+- enter to chrome url bar: `chrome://extensions/`
+- Click `Load unpacked` button
+- Locate the folder and enable
